@@ -1,0 +1,10 @@
+version: '2.15.1'
+
+services:
+  angulardocker:
+    image: angulardocker
+    build:
+      dockerfile: Dockerfile
+    container_name: angulardocker_container
+    ports:
+      - '4200:80'
